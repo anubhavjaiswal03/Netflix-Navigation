@@ -25,6 +25,7 @@ body {
 .nav-btn {
 	border: none;
 	background-color: transparent;
+	color: rgb(34, 31, 31);
 	cursor: pointer;
 	font-size: 20px;
 }
@@ -33,6 +34,9 @@ body {
 	position: fixed;
 	top: 10px;
 	left: 10px;
+	&:hover {
+		color: rgb(229, 9, 20);
+	}
 }
 
 .nav {
@@ -83,6 +87,9 @@ body {
 	position: absolute;
 	top: 40px;
 	right: 30px;
+	&:hover {
+		color: rgb(229, 9, 20);
+	}
 }
 
 .list {
